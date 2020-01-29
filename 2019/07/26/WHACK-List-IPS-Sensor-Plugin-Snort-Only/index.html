@@ -13,7 +13,7 @@
 <meta property="og:site_name" content="Joseff Lewis &gt; Blog | Projects | Security Research | Tips &amp; Tricks">
 <meta property="og:description" content="What Is WHACK (White+Black) List?Part (1/?)In every corporate and personal network it is clear that current methods of preventing network attacks are not efficient. This several part blog post will in">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2020-01-29T16:37:52.396Z">
+<meta property="og:updated_time" content="2020-01-29T16:46:01.237Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="WHACK List IPS Sensor Plugin (Snort Only)">
 <meta name="twitter:description" content="What Is WHACK (White+Black) List?Part (1/?)In every corporate and personal network it is clear that current methods of preventing network attacks are not efficient. This several part blog post will in">
@@ -145,6 +145,8 @@
 <p>Additionally, using the programming language Python it may be possible to build this database based on IP System (Intrusion Prevention System) logs, automating the blacklist, increasing accessibility to legitimate users while keeping them secure. </p>
 <p>As static IDS systems include blacklists through rules, it may be useful to extend this program to incorporate adaptive rule sets as some IDS’s may pick up on malicious signatures while others may not. <br><br>Therefore it may be useful for potentially vulnerable networks to adopt rule sets found on a central web server that can be downloaded and implemented (I understand that authorisation may need to be included as this might become a single point of failure, this will be discussed later).</p>
 <p>This project was inspired by <a href="https://cybermap.kaspersky.com/" target="_blank" rel="noopener">Kasperskys Threat Map</a>, what if we could implement this into a global area network?:</p>
+<iframe width="640" height="640" src="https://cybermap.kaspersky.com/en/widget/dynamic/dark" frameborder="0">
+
 <h2 id="What-Are-The-Prerequisites-for-This-Project"><a href="#What-Are-The-Prerequisites-for-This-Project" class="headerlink" title="What Are The Prerequisites for This Project?"></a>What Are The Prerequisites for This Project?</h2><ul>
 <li>Python v3.4+<ul>
 <li>libs:<ul>
@@ -158,7 +160,7 @@
 <li>Docker Engine </li>
 <li>Nginx Server (In the testing stages, a container was used through Docker)</li>
 </ul>
-
+</iframe>
   </div>
 </article>
 
